@@ -1,28 +1,25 @@
 @import 'normalize';
+@import 'foundation';
 @import 'vars';
 @import 'mixins';
 @import 'fonts';
 @import 'typography';
-
-
-
-
 @import 'components/nav';
 body {
-  margin: 0;
-  overflow-x: none;
-  min-height: 800px;
-  min-width: 1440px;
-  background-image: url(https://www.barraques.cat/pngfile/big/149-1491178_chow-chow-hd-wallpaper-chow-chow-dog-baby.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  .container {
-      margin-top: 100px;
-  }
+    margin: 0;
+    overflow-x: none;
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    .container {
+        margin-top: 100px;
+    }
+    .video-container {
+        div {
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
-
-
-
-
-

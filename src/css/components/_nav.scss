@@ -1,31 +1,10 @@
 nav {
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(black, 0.8);
+    padding: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     align-content: center;
-    h5 {
-        color: white;
-    }
-    ul {
-        list-style-type: none;
-        li {
-            display: inline;
-            a {
-                color: white;
-            }
-            ul {
-                list-style-type: none;
-                li {
-                    display: inline;
-                }
-            }
-        }
+    img {
+        max-height: 100px;
     }
 }
